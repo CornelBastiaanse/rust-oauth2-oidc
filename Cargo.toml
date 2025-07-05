@@ -1,0 +1,6 @@
+[package]
+name = "rust-oauth2-oidc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

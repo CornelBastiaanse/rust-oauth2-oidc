@@ -1,0 +1,63 @@
+# === Rust / Cargo ===
+/target/
+**/*.rs.bk
+**/*.rs.swp
+Cargo.lock # ignore if you're building a library (optional)
+
+/.cargo/config.toml
+.cargo/credentials
+
+# === Build Artifacts ===
+/*.log
+*.dSYM/
+*.rlib
+*.rmeta
+*.profraw
+*.profdata
+*.ll
+*.bc
+
+# === IDEs / Editors ===
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (CLion, IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*~
+*.swp
+*.swo
+
+# === Mac OS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+desktop.ini
+
+# === Misc ===
+*.log
+*.tmp
+*.bak
+*.old
+
+# === Coverage Tools (if used) ===
+/coverage/
+*.gcno
+*.gcda
+*.gcov
+
+# === CI/CD / Artifacts ===
+/dist/
+/build/

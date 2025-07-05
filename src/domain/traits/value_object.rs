@@ -1,0 +1,1 @@
+pub trait ValueObject: Sized + Clone + PartialEq + std::fmt::Debug {}
